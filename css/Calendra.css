@@ -1,0 +1,47 @@
+header{
+    font-family: "Arial Black";
+
+}
+
+.success{color: darkgreen;}
+.error {color: #FF0000;}
+
+.gradient {
+    background-image: linear-gradient(to right, deepskyblue,lightskyblue);
+}
+
+.bodyStyle {
+    color: white;
+    font-family: 'Average', serif;
+}
+
+
+.welcomeHeader{
+    font-size: 60px;
+    font-family: "Arial Black";
+}
+
+.loginFieldHidden{
+
+    display: none;
+
+
+}
+
+.pillClass{
+    width: 190px;
+    height: 21px;
+    font-size: 15px;
+    background-color: goldenrod;
+}
+
+.wrapword {
+    white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    white-space: pre-wrap;       /* css-3 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+    word-break: break-all;
+    white-space: normal;
+}
